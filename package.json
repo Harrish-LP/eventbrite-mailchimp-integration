@@ -6,6 +6,7 @@
     "dev": "vercel dev"
   },
   "dependencies": {
+    "dotenv": "^17.2.3",
     "node-fetch": "^3.3.2"
   }
 }
