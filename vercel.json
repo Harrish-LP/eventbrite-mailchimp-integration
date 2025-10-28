@@ -1,0 +1,5 @@
+{
+  "version": 2,
+  "builds": [{ "src": "api/eventbrite.js", "use": "@vercel/node" }],
+  "routes": [{ "src": "/api/eventbrite", "dest": "/api/eventbrite.js" }]
+}
